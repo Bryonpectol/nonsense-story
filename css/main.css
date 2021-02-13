@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    width: 100%;
+    background-color: forestgreen;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navli {
+    /* margin: 1vh; */
+    padding: 2vh;
+    list-style-type: none;
+}
+
+.navli:hover {
+    background-color: black;
+    color: lightgreen;
+    cursor: pointer;
+}
+
+header {
+    background: url("/media/images/bg.jpg");
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 5vh;
+}
+
+header h1 {
+    width: 50vh;
+    margin: 2.5vh;
+    padding: 2.5vh;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+header h2 {
+    width: 50vh;
+    margin: 2.5vh;
+    padding: 2.5vh;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.main {
+    margin: 10vh;
+}
+
+textarea {
+    height: 10vh;
+    width: 30vh;
+    margin: 10px;
+    padding-left: 5px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+article {
+    text-align: center;
+}
+
+button {
+    background-color: forestgreen;
+    padding: 4vh;
+    color: white;
+    margin-left: 45%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: lightgreen;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+#mainP {
+    margin: 10vh;
+    margin-top: 5px;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    font-family: Helvetica, sans-serif;
+}
+
+footer {
+    height: 3vh;
+    background-color: forestgreen;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.classul {
+    margin: 2vh;
+}
+
+.listli {
+    margin: 2vh;
+}
+
+.ulh2 {
+    margin: 2vh;
+}

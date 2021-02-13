@@ -4,15 +4,75 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Non-sense Story</title>
+        <title>Nonsense Story</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
        
-
+        <nav>
+            <ul>
+                <li class="navli">Home</li>
+                <li class="navli">About</li>
+                <li class="navli">Contact Us</li>
+            </ul>
+        </nav>
         
+        <main>
+
+            <header>
+                <h1>
+                    Nonsense Story
+                </h1>
+                <h2>
+                    String Manipulation
+                </h2>
+            </header>
+
+            <div class="main">
+            <h1>The Tale of Peter Rabbit</h1>
+
+            <h2 class="ulh2">What I Learned:</h2>
+            <ul class="classul">
+                <li class="listli">I learned how to use the split function to create a new array with it.</li>
+                <li class="listli">I was reminded of how to make everything in a string or array lowercase.</li>
+            </ul>
+
+            <form>
+                <label>First Name:</label>
+                <input name="name" id="name" type="text" placeholder="John" required />
+            </form>
+
+            <div class="articles">
+                
+            <article>
+                <h2>Nouns:</h2>
+                <textarea id="text1" placeholder="cat, apple, van"></textarea>
+            </article>
+            <article>
+                <h2>Adjectives:</h2>
+                <textarea id="text2" placeholder="funny, quiet, brave"></textarea>
+            </article>
+            <article>
+                <h2>Verbs:</h2>
+                <textarea id="text3" placeholder="run, sit, look"></textarea>
+            </article>
+            </div>
+
+            <button id="btn" onclick="tellStory()">Tell The Story</button>
+
+            <div id="mainStory" class="mainStory">
+
+            </div>
+                <p id="mainP"></p>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>Assignment for DGM 2760. Bryon Pectol</p>
+        </footer>
         <script src="/js/main.js" async defer></script>
     </body>
 </html>
